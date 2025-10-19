@@ -1,0 +1,39 @@
+# ==========================================
+# 📦 Phiên bản: 1.0.0
+# 🧩 Plugin: MMOTrade - Hệ thống trao đổi vật phẩm MMOItems & Vanilla
+# 👤 Tác giả: ihqqq (Phi)
+# 💬 Discord: ihqqq
+# 🌐 Facebook: https://www.facebook.com/ihqqqq/
+# 💡 Góp ý / báo lỗi: vui lòng liên hệ qua Discord hoặc Facebook ở trên
+# ==========================================
+
+
+# ==========================================
+# CÀI ĐẶT NGÔN NGỮ
+# ==========================================
+# Ngôn ngữ có sẵn: en (Tiếng Anh), vi (Tiếng Việt)
+# Tùy chỉnh: tạo file mới trong thư mục languages/
+# ==========================================
+
+language: "vi"  # Đặt thành "vi" để hiển thị tiếng Việt
+
+# ==========================================
+# CÀI ĐẶT ÂM THANH GIAO DỊCH
+# ==========================================
+# Âm thanh phát khi người chơi hoàn thành trao đổi
+# Danh sách âm thanh: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+# ==========================================
+
+trade-sound:
+  # Tên âm thanh (theo enum Bukkit Sound)
+  sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+
+  # Âm lượng (0.0 - 2.0, mặc định: 1.0)
+  volume: 1.0
+
+  # Tông cao (Pitch) (0.5 - 2.0, mặc định: 1.0)
+  # Giá trị thấp = trầm hơn, cao = sắc hơn
+  pitch: 1.0
+
+
+

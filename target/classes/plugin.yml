@@ -1,0 +1,60 @@
+name: MMOTrade
+version: 1.0.0
+main: me.ihqqq.MMOTrade.MMOTrade
+api-version: 1.21
+author: ihqqq
+description: Advanced trading system with MMOItems support
+softdepend: [MMOItems, FancyNpcs]
+
+commands:
+  mmotrade:
+    description: Open a trading shop
+    usage: /mmotrade <shop_name>
+    aliases: [mt, trade, shop]
+    permission: mmotrade.use
+    permission-message: "&cYou don't have permission to use this command!"
+
+  mtnpc:
+    description: Manage trading NPCs
+    usage: /mtnpc <create|remove|edit|list|reload>
+    aliases: [mmotradenpcs, tradenpc]
+    permission: mmotrade.npc.use
+    permission-message: "&cYou don't have permission to use this command!"
+
+permissions:
+  mmotrade.use:
+    description: Allows using the trade command
+    default: true
+  mmotrade.reload:
+    description: Allows reloading the plugin
+    default: op
+  mmotrade.npc.use:
+    description: Allows using NPC commands
+    default: op
+  mmotrade.npc.create:
+    description: Allows creating NPCs
+    default: op
+  mmotrade.npc.remove:
+    description: Allows removing NPCs
+    default: op
+  mmotrade.npc.edit:
+    description: Allows editing NPCs
+    default: op
+  mmotrade.npc.list:
+    description: Allows listing NPCs
+    default: true
+  mmotrade.npc.reload:
+    description: Allows reloading NPC config
+    default: op
+  mmotrade.*:
+    description: Grants all permissions
+    default: op
+    children:
+      mmotrade.use: true
+      mmotrade.reload: true
+      mmotrade.npc.use: true
+      mmotrade.npc.create: true
+      mmotrade.npc.remove: true
+      mmotrade.npc.edit: true
+      mmotrade.npc.list: true
+      mmotrade.npc.reload: true

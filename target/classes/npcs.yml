@@ -1,0 +1,23 @@
+# ==========================================
+#        MMOTrade - Cấu hình NPC Shop
+# ==========================================
+# Quản lý NPC mở shop khi người chơi nhấn vào
+# Yêu cầu cài plugin FancyNpcs
+# ==========================================
+
+# Tên hiển thị mặc định cho NPC
+# Placeholder có thể dùng: {name}, {shop}
+default-display-name: "&8[&aTrade&8] &e{name}"
+
+# Danh sách NPC (tự tạo khi dùng lệnh /mtnpc)
+npcs:
+
+
+# ==========================================
+#                GHI CHÚ
+# ==========================================
+# • Tạo NPC bằng lệnh: /mtnpc create <tên_npc> <tên_shop> [skinurl]
+# • File này sẽ tự cập nhật khi bạn thêm hoặc xóa NPC
+# • Không nên chỉnh tay trừ khi bạn hiểu rõ
+# • Muốn đổi ngoại hình NPC → chỉnh trong plugin FancyNpcs
+# ==========================================

@@ -1,0 +1,42 @@
+# ==========================================
+#    MMOTrade - Thông Báo Tiếng Việt
+# ==========================================
+
+prefix: "&8[&6MMOTrade&8]&r"
+
+# Thông báo lệnh
+usage: "{prefix} &7Cách dùng: /mmotrade <tên_shop>"
+reloaded: "{prefix} &aĐã tải lại cấu hình thành công!"
+shop-not-found: "{prefix} &cKhông tìm thấy shop '&e{shop}&c'!"
+shop-empty: "{prefix} &cShop này không có giao dịch hợp lệ!"
+players-only: "{prefix} &cChỉ người chơi mới có thể dùng lệnh này!"
+no-permission: "{prefix} &cBạn không có quyền thực hiện điều này!"
+
+# Thông báo giao dịch
+trade-success: "{prefix} &aGiao dịch thành công &e{amount}x {item}&a!"
+
+# Thông báo NPC
+npc-not-enabled: "{prefix} &cFancyNpcs chưa cài đặt! Tính năng NPC bị vô hiệu hóa."
+npc-created: "{prefix} &aTạo NPC '&e{npc}&a' cho shop '&e{shop}&a' thành công!"
+npc-removed: "{prefix} &aĐã xóa NPC '&e{npc}&a'!"
+npc-updated: "{prefix} &aĐã cập nhật NPC '&e{npc}&a' sang shop '&e{shop}&a'!"
+npc-not-found: "{prefix} &cKhông tìm thấy NPC '&e{npc}&c'!"
+npc-create-failed: "{prefix} &cTạo NPC thất bại! Kiểm tra console."
+npc-remove-failed: "{prefix} &cXóa NPC thất bại! Kiểm tra console."
+npc-reloaded: "{prefix} &aĐã tải lại cấu hình NPC!"
+npc-list-empty: "{prefix} &7Chưa có NPC nào được cấu hình."
+npc-list-header: "{prefix} &6Danh sách NPC giao dịch:"
+npc-list-format: "  &7- &e{npc} &7→ &a{shop}"
+
+# Hướng dẫn lệnh NPC
+npc-create-usage: "{prefix} &7Cách dùng: /mtnpc create <tên_npc> <tên_shop> [skin]"
+npc-remove-usage: "{prefix} &7Cách dùng: /mtnpc remove <tên_npc>"
+npc-edit-usage: "{prefix} &7Cách dùng: /mtnpc edit <tên_npc> <tên_shop>"
+
+# Trợ giúp NPC
+npc-help-header: "{prefix} &6&lLệnh NPC:"
+npc-help-create: "  &e/mtnpc create <n> <shop> [skin] &7- Tạo NPC"
+npc-help-remove: "  &e/mtnpc remove <n> &7- Xóa NPC"
+npc-help-edit: "  &e/mtnpc edit <n> <shop> &7- Đổi shop cho NPC"
+npc-help-list: "  &e/mtnpc list &7- Xem danh sách NPC"
+npc-help-reload: "  &e/mtnpc reload &7- Tải lại cấu hình NPC"

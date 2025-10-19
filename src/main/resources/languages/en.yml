@@ -1,0 +1,42 @@
+# ==========================================
+#      MMOTrade - English Messages
+# ==========================================
+
+prefix: "&8[&6MMOTrade&8]&r"
+
+# Command messages
+usage: "{prefix} &7Usage: /mmotrade <shop_name>"
+reloaded: "{prefix} &aConfiguration reloaded successfully!"
+shop-not-found: "{prefix} &cShop '&e{shop}&c' not found!"
+shop-empty: "{prefix} &cThis shop has no valid trades!"
+players-only: "{prefix} &cOnly players can use this command!"
+no-permission: "{prefix} &cYou don't have permission to do that!"
+
+# Trade messages
+trade-success: "{prefix} &aSuccessfully traded for &e{amount}x {item}&a!"
+
+# NPC messages
+npc-not-enabled: "{prefix} &cFancyNpcs is not installed! NPC features are disabled."
+npc-created: "{prefix} &aCreated NPC '&e{npc}&a' for shop '&e{shop}&a'!"
+npc-removed: "{prefix} &aRemoved NPC '&e{npc}&a'!"
+npc-updated: "{prefix} &aUpdated NPC '&e{npc}&a' to shop '&e{shop}&a'!"
+npc-not-found: "{prefix} &cNPC '&e{npc}&c' not found!"
+npc-create-failed: "{prefix} &cFailed to create NPC! Check console for errors."
+npc-remove-failed: "{prefix} &cFailed to remove NPC! Check console for errors."
+npc-reloaded: "{prefix} &aNPC configuration reloaded!"
+npc-list-empty: "{prefix} &7No NPCs configured."
+npc-list-header: "{prefix} &6Trading NPCs:"
+npc-list-format: "  &7- &e{npc} &7→ &a{shop}"
+
+# NPC command usage
+npc-create-usage: "{prefix} &7Usage: /mtnpc create <npc_name> <shop_name> [skin]"
+npc-remove-usage: "{prefix} &7Usage: /mtnpc remove <npc_name>"
+npc-edit-usage: "{prefix} &7Usage: /mtnpc edit <npc_name> <shop_name>"
+
+# NPC help
+npc-help-header: "{prefix} &6&lNPC Commands:"
+npc-help-create: "  &e/mtnpc create <name> <shop> [skin] &7- Create NPC"
+npc-help-remove: "  &e/mtnpc remove <name> &7- Remove NPC"
+npc-help-edit: "  &e/mtnpc edit <name> <shop> &7- Change NPC shop"
+npc-help-list: "  &e/mtnpc list &7- List all NPCs"
+npc-help-reload: "  &e/mtnpc reload &7- Reload NPC config"

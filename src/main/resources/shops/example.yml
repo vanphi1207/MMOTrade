@@ -1,0 +1,56 @@
+# ==========================================
+#       MMOTrade - Config mẫu
+# ==========================================
+
+trades:
+
+  - type: "VANILLA"
+    id: "PAPER"
+    amount: 10
+    input:
+      - type: "VANILLA"
+        id: "GOLD_INGOT"
+        amount: 1
+
+#  - type: "ARMOR"
+#    id: "COMMON1_1"
+#    amount: 1
+#    input:
+#      - type: "VANILLA"
+#        id: "GOLD_INGOT"
+#        amount: 1
+
+
+# ==========================================
+#          GHI CHÚ CẤU HÌNH (CONFIG)
+# ==========================================
+# CÁC TRƯỜNG BẮT BUỘC:
+#   type   - Loại vật phẩm MMOItems hoặc chuỗi bất kỳ (dùng cho vật phẩm vanilla)
+#   id     - ID của vật phẩm trong MMOItems hoặc tên Material trong Minecraft
+#   input  - Danh sách nguyên liệu cần thiết (từ 1 đến 2 vật phẩm)
+#
+# CÁC TRƯỜNG TÙY CHỌN:
+#   amount - Số lượng vật phẩm nhận được (mặc định: 1)
+#   model  - Custom Model Data (dạng số nguyên, tùy chọn)
+#
+# QUY TẮC NGUYÊN LIỆU
+#   - Tối thiểu: 1 nguyên liệu
+#   - Tối đa: 2 nguyên liệu
+#   - Mỗi nguyên liệu có cấu trúc giống vật phẩm kết quả (có type, id, amount, v.v.)
+#
+# CÁC TYPE MMOITEMS HỖ TRỢ:
+#   SWORD, ARMOR, TOOL, BOW, CONSUMABLE,
+#   MATERIAL, ACCESSORY, GEM_STONE, v.v.
+#
+# DỮ LIỆU CUSTOM MODEL (CUSTOM MODEL DATA):
+#   - Là một số nguyên (ví dụ: 100001)
+#   - Hoạt động với cả MMOItems và vật phẩm vanilla
+#   - Là tùy chọn, có thể bỏ qua
+#
+# MẸO SỬ DỤNG:
+#   1. Plugin tự động nhận dạng vật phẩm MMOItems
+#   2. Nếu không tìm thấy MMOItem, plugin sẽ thử nhận dạng vật phẩm vanilla
+#   3. Mọi vật phẩm lỗi sẽ được ghi log trong console
+#   4. Sau khi chỉnh sửa, hãy vào game để kiểm tra các giao dịch
+#   5. Dùng lệnh /mmotrade reload để tải lại cấu hình
+# ==========================================
