@@ -1,6 +1,6 @@
 # ⚔️ MMOTrade
 
-**Tác giả:** [ihqqq (Phi)](https://facebook.com/ihqqq](https://www.facebook.com/ihqqqq/)  
+**Tác giả:** [ihqqq (Phi)](https://www.facebook.com/ihqqqq/)  
 **Phiên bản:** `1.0.0`  
 **Yêu cầu:** `Paper/Spigot 1.20+`, `MMOItems`, *(tuỳ chọn)* `FancyNpcs`
 
