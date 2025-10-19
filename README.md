@@ -27,3 +27,15 @@ Người chơi chỉ cần **đưa nguyên liệu và nhận vật phẩm mong m
 
 ## 📁 Cấu trúc thư mục
 
+MMOTrade/
+├── languages/              # Ngôn ngữ hiển thị
+│   ├── en.yml              # Tiếng Anh
+│   └── vi.yml              # Tiếng Việt
+│
+├── shops/                  # Cửa hàng (shop) và giao dịch
+│   └── example.yml         # Ví dụ mẫu cấu hình shop
+│
+├── config.yml              # Cấu hình chính (âm thanh, ngôn ngữ, v.v.)
+└── npcs.yml                # Danh sách NPC đã tạo (tự động cập nhật)
+
+
