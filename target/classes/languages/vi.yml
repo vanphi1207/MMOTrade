@@ -1,5 +1,5 @@
 # ==========================================
-#    MMOTrade - Thông Báo Tiếng Việt
+#    languages/vi.yml - Tiếng Việt
 # ==========================================
 
 prefix: "&8[&6MMOTrade&8]&r"
@@ -20,9 +20,15 @@ npc-not-enabled: "{prefix} &cFancyNpcs chưa cài đặt! Tính năng NPC bị v
 npc-created: "{prefix} &aTạo NPC '&e{npc}&a' cho shop '&e{shop}&a' thành công!"
 npc-removed: "{prefix} &aĐã xóa NPC '&e{npc}&a'!"
 npc-updated: "{prefix} &aĐã cập nhật NPC '&e{npc}&a' sang shop '&e{shop}&a'!"
+npc-renamed: "{prefix} &aĐã đổi tên NPC '&e{npc}&a' thành '{name}&a'!"
+npc-type-changed: "{prefix} &aĐã đổi hình dạng NPC '&e{npc}&a' thành &e{type}&a!"
 npc-not-found: "{prefix} &cKhông tìm thấy NPC '&e{npc}&c'!"
 npc-create-failed: "{prefix} &cTạo NPC thất bại! Kiểm tra console."
 npc-remove-failed: "{prefix} &cXóa NPC thất bại! Kiểm tra console."
+npc-rename-failed: "{prefix} &cĐổi tên NPC thất bại! Kiểm tra console."
+npc-settype-failed: "{prefix} &cĐổi hình dạng NPC thất bại! Kiểm tra console."
+npc-invalid-type: "{prefix} &cLoại mob '&e{type}&c' không hợp lệ!"
+npc-valid-types: "{prefix} &7Các loại hợp lệ: PLAYER, ZOMBIE, SKELETON, CREEPER, VILLAGER, IRON_GOLEM, v.v."
 npc-reloaded: "{prefix} &aĐã tải lại cấu hình NPC!"
 npc-list-empty: "{prefix} &7Chưa có NPC nào được cấu hình."
 npc-list-header: "{prefix} &6Danh sách NPC giao dịch:"
@@ -32,11 +38,15 @@ npc-list-format: "  &7- &e{npc} &7→ &a{shop}"
 npc-create-usage: "{prefix} &7Cách dùng: /mtnpc create <tên_npc> <tên_shop> [skin]"
 npc-remove-usage: "{prefix} &7Cách dùng: /mtnpc remove <tên_npc>"
 npc-edit-usage: "{prefix} &7Cách dùng: /mtnpc edit <tên_npc> <tên_shop>"
+npc-rename-usage: "{prefix} &7Cách dùng: /mtnpc rename <tên_npc> <tên_hiển_thị_mới>"
+npc-settype-usage: "{prefix} &7Cách dùng: /mtnpc settype <tên_npc> <loại_mob>"
 
 # Trợ giúp NPC
 npc-help-header: "{prefix} &6&lLệnh NPC:"
 npc-help-create: "  &e/mtnpc create <n> <shop> [skin] &7- Tạo NPC"
 npc-help-remove: "  &e/mtnpc remove <n> &7- Xóa NPC"
 npc-help-edit: "  &e/mtnpc edit <n> <shop> &7- Đổi shop cho NPC"
+npc-help-rename: "  &e/mtnpc rename <n> <tên> &7- Đổi tên hiển thị NPC"
+npc-help-settype: "  &e/mtnpc settype <n> <mob> &7- Đổi hình dạng NPC"
 npc-help-list: "  &e/mtnpc list &7- Xem danh sách NPC"
 npc-help-reload: "  &e/mtnpc reload &7- Tải lại cấu hình NPC"

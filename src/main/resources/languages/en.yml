@@ -1,7 +1,3 @@
-# ==========================================
-#      MMOTrade - English Messages
-# ==========================================
-
 prefix: "&8[&6MMOTrade&8]&r"
 
 # Command messages
@@ -20,9 +16,15 @@ npc-not-enabled: "{prefix} &cFancyNpcs is not installed! NPC features are disabl
 npc-created: "{prefix} &aCreated NPC '&e{npc}&a' for shop '&e{shop}&a'!"
 npc-removed: "{prefix} &aRemoved NPC '&e{npc}&a'!"
 npc-updated: "{prefix} &aUpdated NPC '&e{npc}&a' to shop '&e{shop}&a'!"
+npc-renamed: "{prefix} &aRenamed NPC '&e{npc}&a' to '{name}&a'!"
+npc-type-changed: "{prefix} &aChanged NPC '&e{npc}&a' type to &e{type}&a!"
 npc-not-found: "{prefix} &cNPC '&e{npc}&c' not found!"
 npc-create-failed: "{prefix} &cFailed to create NPC! Check console for errors."
 npc-remove-failed: "{prefix} &cFailed to remove NPC! Check console for errors."
+npc-rename-failed: "{prefix} &cFailed to rename NPC! Check console for errors."
+npc-settype-failed: "{prefix} &cFailed to change NPC type! Check console for errors."
+npc-invalid-type: "{prefix} &cInvalid mob type '&e{type}&c'!"
+npc-valid-types: "{prefix} &7Valid types: PLAYER, ZOMBIE, SKELETON, CREEPER, VILLAGER, IRON_GOLEM, etc."
 npc-reloaded: "{prefix} &aNPC configuration reloaded!"
 npc-list-empty: "{prefix} &7No NPCs configured."
 npc-list-header: "{prefix} &6Trading NPCs:"
@@ -32,11 +34,15 @@ npc-list-format: "  &7- &e{npc} &7→ &a{shop}"
 npc-create-usage: "{prefix} &7Usage: /mtnpc create <npc_name> <shop_name> [skin]"
 npc-remove-usage: "{prefix} &7Usage: /mtnpc remove <npc_name>"
 npc-edit-usage: "{prefix} &7Usage: /mtnpc edit <npc_name> <shop_name>"
+npc-rename-usage: "{prefix} &7Usage: /mtnpc rename <npc_name> <new_display_name>"
+npc-settype-usage: "{prefix} &7Usage: /mtnpc settype <npc_name> <mob_type>"
 
 # NPC help
 npc-help-header: "{prefix} &6&lNPC Commands:"
-npc-help-create: "  &e/mtnpc create <name> <shop> [skin] &7- Create NPC"
-npc-help-remove: "  &e/mtnpc remove <name> &7- Remove NPC"
-npc-help-edit: "  &e/mtnpc edit <name> <shop> &7- Change NPC shop"
+npc-help-create: "  &e/mtnpc create <n> <shop> [skin] &7- Create NPC"
+npc-help-remove: "  &e/mtnpc remove <n> &7- Remove NPC"
+npc-help-edit: "  &e/mtnpc edit <n> <shop> &7- Change NPC shop"
+npc-help-rename: "  &e/mtnpc rename <n> <display> &7- Rename NPC display name"
+npc-help-settype: "  &e/mtnpc settype <n> <mob> &7- Change NPC appearance"
 npc-help-list: "  &e/mtnpc list &7- List all NPCs"
 npc-help-reload: "  &e/mtnpc reload &7- Reload NPC config"
